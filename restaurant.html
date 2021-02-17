@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="restaurant.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="first_form">
+        <h1 class="main">Анкета посетителя ресторана</h1>
+        <form action="">
+        <fieldset class="container">
+            <legend class="first_legend">Контактная информация</legend>
+            <ul class="main_label">
+                <li class="different_labels"><label for="">Имя</label></li>
+                <li class="different_labels"><label for="">Телефон</label></li>
+                <li class="different_labels"><label for="">Email</label></li>
+                <li class="different_labels"><label for="">Дата посещения</label></li>
+            </ul>
+            <ul class="main_input">
+                <li class="different_inputs"><input type="text"></li>
+                <li class="different_inputs"><input type="text"></li>
+                <li class="different_inputs"><input type="text"></li>
+                <li class="different_inputs"><input type="text"></li>
+            </ul>
+        </fieldset>
+         <fieldset class="personal">
+          <legend class="second_legend">Персональная информация</legend>
+           <ul class="main_personal">
+            <li class="personal_labels"> <label for="">Возраст</label></li>
+            <li class="personal_labels"> <label for="">Любимая кухня</label></li>
+            <li class="personal_labels"> <label for="">Какие блюда вы бы хотели увидеть в меню?</label></li>
+           </ul>
+            <ul class="main_function">
+                <li class="number"><input type="number" min="1" max="100" step="1"></li>
+                <li class="number">
+                    <select value="tut-title">
+                        <option name="" id="">Русский</option>
+                    </select>
+                </li>
+                <li class="number"> <textarea name="" id="" cols="40" rows="5"></textarea></li>
+            </ul>
+
+            
+
+         </fieldset>
+            <fieldset class="radio">
+            <legend class="radio_legend">Оценка нашого заведения</legend>
+            <ul class="radio_rating">
+                <li class="rate"><h4 class="first_question">Почему Вы выбрали наше заведение</h4></li>
+                <li class="rate"><input type="radio">Недалеко от дома/работы</li>
+                <li class="rate"><input type="radio">Увидел рекламу</li>
+                <li class="rate"><input type="radio">Посоветовали</li>
+                <li class="rate"><input type="radio">Оптимальное соотношение цены и качества</li>
+                <li class="rate"><h4 class="first_question">Вы будете рекомендовать наше заведение своим знакомым</h4></li>
+                <li class="rate"><input type="radio" >Да</li>
+                <li class="rate"><input type="radio" >Нет</li>
+                <li class="rate"><input type="submit" value="Отправить" class="update"></li>
+            </ul>
+           
+            </fieldset>
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,107 @@
+.container{
+    width: 800px;
+    height: 250px;
+    border: aqua 2px solid;
+    background-color: rgb(255, 241, 215);
+    border-radius: 20px;
+}
+.first_legend{
+    color: aqua;
+}
+.different_labels{
+   margin: 30px;
+   list-style: none;
+   position: relative;
+   left: -50px;
+   color: rgb(95, 81, 58);
+}
+.different_inputs{
+    width: 600px;
+    margin: 20px;
+    list-style: none;
+    position: relative;
+    bottom: 210px;
+    left: 350px;
+}
+.personal{
+    width: 800px;
+    height: 250px;
+    border: aqua 2px solid;
+    background-color: rgb(255, 241, 215);
+    border-radius: 20px;
+}
+.second_legend{
+    color: aqua;
+}
+.personal_labels{
+    margin: 40px;
+    list-style: none;
+    position: relative;
+    left: -60px;
+    color: rgb(95, 81, 58);
+ }
+.number{
+    margin: 30px;
+    list-style: none;
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+}
+.radio{
+    width: 800px;
+    height: 320px;
+    border: aqua 2px solid;
+    background-color: rgb(255, 241, 215);
+    border-radius: 20px;
+}
+.radio_legend{
+    color: aqua;
+}
+.rate{
+    list-style: none;
+    margin: 3px;
+    position: relative;
+    bottom: 20px;
+    left: -20px;
+    color: rgb(95, 81, 58);
+}
+.first_question{
+    color: rgb(95, 81, 58);
+}
+.update{
+    width: 100px;
+    height: 50px;
+    color: blue;
+    background-color: aqua;
+    border: aquamarine;
+    outline-color: black ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
